@@ -1,0 +1,66 @@
+[0.015s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[0.062s] [ 25%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/detector.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/vision_detector.cpp.o[0m
+[0.064s] [ 75%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/pinhole_camera.cpp.o[0m
+[1.036s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/pinhole_camera.cpp:[m[K In member function ‘[01m[Kcoordinate PinholeCamera::CoordinateDetector()[m[K’:
+[1.036s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/pinhole_camera.cpp:5:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.036s]     5 |     double [01;35m[Kz[m[K = target_depth_;
+[1.036s]       |            [01;35m[K^[m[K
+[1.036s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/pinhole_camera.cpp:6:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.036s]     6 |     double [01;35m[Kx[m[K = ((target_x_-center_x_)*target_depth_)/focal_length_x_;
+[1.036s]       |            [01;35m[K^[m[K
+[1.037s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/pinhole_camera.cpp:7:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.037s]     7 |     double [01;35m[Ky[m[K = ((target_y_-center_y_)*target_depth_)/focal_length_y_;
+[1.037s]       |            [01;35m[K^[m[K
+[1.037s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/pinhole_camera.cpp:8:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.037s]     8 | [01;35m[K}[m[K
+[1.037s]       | [01;35m[K^[m[K
+[2.531s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.531s]                  from [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:1[m[K:
+[2.531s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:[m[K In member function ‘[01m[Kvoid VisionDetectorNode::img_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[2.531s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:94:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 5 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.531s]    94 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"publishtime: %lld"[m[K,[32m[Kcv_image.header.stamp.sec[m[K);
+[2.531s]       |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.531s]       |                                                                              [32m[K|[m[K
+[2.531s]       |                                                                              [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[2.531s] [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:94:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.531s]    94 |     RCLCPP_INFO(this->get_logger(),"publishtime: [01;36m[K%lld[m[K",cv_image.header.stamp.sec);
+[2.531s]       |                                                  [01;36m[K~~~^[m[K
+[2.531s]       |                                                     [01;36m[K|[m[K
+[2.531s]       |                                                     [01;36m[Klong long int[m[K
+[2.531s]       |                                                  [32m[K%d[m[K
+[7.598s] [100%] [32m[1mLinking CXX executable vision_detector[0m
+[7.897s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.405
+[7.900s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405
+[8.459s] [100%] Built target vision_detector
+[8.466s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[8.476s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector
+[8.481s] -- Install configuration: ""
+[8.483s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector
+[8.492s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector" to ""
+[8.493s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/package_run_dependencies/vision_detector
+[8.493s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/parent_prefix_path/vision_detector
+[8.493s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.sh
+[8.493s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.dsv
+[8.493s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.sh
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.dsv
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.bash
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.sh
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.zsh
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.dsv
+[8.494s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/packages/vision_detector
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig.cmake
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig-version.cmake
+[8.494s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.xml
+[8.497s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector

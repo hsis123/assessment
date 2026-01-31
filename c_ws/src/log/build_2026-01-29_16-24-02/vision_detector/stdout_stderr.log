@@ -1,0 +1,24 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/detector.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/vision_detector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vision_detector[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.405
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405
+[100%] Built target vision_detector
+-- Install configuration: ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector
+-- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector" to ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/package_run_dependencies/vision_detector
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/parent_prefix_path/vision_detector
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.bash
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.zsh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/packages/vision_detector
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig-version.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.xml

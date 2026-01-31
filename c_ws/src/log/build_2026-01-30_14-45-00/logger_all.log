@@ -1,0 +1,149 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'vision_detector', 'vision_detector/']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['vision_detector', 'vision_detector/'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7513e6d27460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7513e6ed8a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7513e6ed8a60>>)
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/liker/Desktop/camera1/c_ws/src'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(camera_publish) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'camera_publish' with type 'ros.ament_cmake' and name 'camera_publish'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(my_launch) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'my_launch' with type 'ros.ament_cmake' and name 'my_launch'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(vision_detector) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_detector' with type 'ros.ament_cmake' and name 'vision_detector'
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'vision_detector/' in --packages-select
+[0.312s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_publish' in 'camera_publish'
+[0.312s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_launch' in 'my_launch'
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.315s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'vision_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'vision_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector', 'merge_install': False, 'path': '/home/liker/Desktop/camera1/c_ws/src/vision_detector', 'symlink_install': False, 'test_result_base': None}
+[0.347s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/liker/Desktop/camera1/c_ws/src/vision_detector' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/liker/Desktop/camera1/c_ws/src/vision_detector'
+[0.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[8.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[8.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector
+[8.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_detector)
+[8.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector
+[8.393s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector' for CMake module files
+[8.393s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector' for CMake config files
+[8.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_detector', 'cmake_prefix_path')
+[8.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.ps1'
+[8.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.dsv'
+[8.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.sh'
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib'
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/bin'
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/pkgconfig/vision_detector.pc'
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/python3.10/site-packages'
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/bin'
+[8.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.ps1'
+[8.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv'
+[8.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.sh'
+[8.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.bash'
+[8.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.zsh'
+[8.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/colcon-core/packages/vision_detector)
+[8.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_detector)
+[8.401s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector' for CMake module files
+[8.402s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector' for CMake config files
+[8.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_detector', 'cmake_prefix_path')
+[8.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.ps1'
+[8.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.dsv'
+[8.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/hook/cmake_prefix_path.sh'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/bin'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/pkgconfig/vision_detector.pc'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/python3.10/site-packages'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/bin'
+[8.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.ps1'
+[8.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv'
+[8.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.sh'
+[8.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.bash'
+[8.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.zsh'
+[8.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/colcon-core/packages/vision_detector)
+[8.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.408s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.409s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.417s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.468s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liker/Desktop/camera1/c_ws/src/install/local_setup.ps1'
+[8.469s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/liker/Desktop/camera1/c_ws/src/install/_local_setup_util_ps1.py'
+[8.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liker/Desktop/camera1/c_ws/src/install/setup.ps1'
+[8.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liker/Desktop/camera1/c_ws/src/install/local_setup.sh'
+[8.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/liker/Desktop/camera1/c_ws/src/install/_local_setup_util_sh.py'
+[8.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liker/Desktop/camera1/c_ws/src/install/setup.sh'
+[8.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liker/Desktop/camera1/c_ws/src/install/local_setup.bash'
+[8.475s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liker/Desktop/camera1/c_ws/src/install/setup.bash'
+[8.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/liker/Desktop/camera1/c_ws/src/install/local_setup.zsh'
+[8.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/liker/Desktop/camera1/c_ws/src/install/setup.zsh'

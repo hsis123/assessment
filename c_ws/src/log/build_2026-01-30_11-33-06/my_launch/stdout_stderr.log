@@ -1,0 +1,51 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rviz2: 11.2.23 (/opt/ros/humble/share/rviz2/cmake)
+-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- Found FastRTPS: /opt/ros/humble/include
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/liker/Desktop/camera1/c_ws/src/build/my_launch
+-- Install configuration: ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/launch
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/launch/camera_detector.launch.py
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/ament_index/resource_index/package_run_dependencies/my_launch
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/ament_index/resource_index/parent_prefix_path/my_launch
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/environment/ament_prefix_path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/environment/ament_prefix_path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/environment/path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/environment/path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/local_setup.bash
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/local_setup.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/local_setup.zsh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/local_setup.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/package.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/ament_index/resource_index/packages/my_launch
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/cmake/my_launchConfig.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/cmake/my_launchConfig-version.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/my_launch/share/my_launch/package.xml

@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000188] (-) JobUnselected: {'identifier': 'camera_publish'}
+[0.000260] (-) JobUnselected: {'identifier': 'my_launch'}
+[0.000303] (vision_detector) JobQueued: {'identifier': 'vision_detector', 'dependencies': OrderedDict()}
+[0.000464] (vision_detector) JobStarted: {'identifier': 'vision_detector'}
+[0.007796] (vision_detector) JobProgress: {'identifier': 'vision_detector', 'progress': 'cmake'}
+[0.011298] (vision_detector) JobProgress: {'identifier': 'vision_detector', 'progress': 'build'}
+[0.011509] (vision_detector) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector', '--', '-j32', '-l32'], 'cwd': '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liker'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/liker/Desktop/camera1'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1444'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1614'), ('BUNDLED_DEBUGPY_PATH', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3089'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liker'), ('JOURNAL_STREAM', '8:39101'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1578,unix/liker-virtual-machine:/tmp/.ICE-unix/1578'), ('INVOCATION_ID', '17da6b1f53d94052bfc930e7e3e95256'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fbebcc656407aa61.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liker/.config/Code/User/workspaceStorage/8df7d23c92a755972370ece27053b011/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OBL2J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e616db8e97.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061885] (vision_detector) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/vision_detector.dir/src/vision_detector.cpp.o\x1b[0m\n'}
+[0.099426] (-) TimerEvent: {}
+[0.199868] (-) TimerEvent: {}
+[0.300831] (-) TimerEvent: {}
+[0.401785] (-) TimerEvent: {}
+[0.502391] (-) TimerEvent: {}
+[0.603024] (-) TimerEvent: {}
+[0.703478] (-) TimerEvent: {}
+[0.804050] (-) TimerEvent: {}
+[0.905027] (-) TimerEvent: {}
+[1.005716] (-) TimerEvent: {}
+[1.106265] (-) TimerEvent: {}
+[1.206941] (-) TimerEvent: {}
+[1.307651] (-) TimerEvent: {}
+[1.408361] (-) TimerEvent: {}
+[1.508841] (-) TimerEvent: {}
+[1.609707] (-) TimerEvent: {}
+[1.710388] (-) TimerEvent: {}
+[1.811023] (-) TimerEvent: {}
+[1.912104] (-) TimerEvent: {}
+[2.013159] (-) TimerEvent: {}
+[2.114148] (-) TimerEvent: {}
+[2.214845] (-) TimerEvent: {}
+[2.315870] (-) TimerEvent: {}
+[2.416650] (-) TimerEvent: {}
+[2.491647] (vision_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.491883] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.491968] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.492239] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.492288] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.492325] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.492358] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.492395] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.492423] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.492622] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.492840] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.492916] (vision_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:1\x1b[m\x1b[K:\n'}
+[2.492959] (vision_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VisionDetectorNode::img_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.492997] (vision_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:76:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.493033] (vision_detector) StderrLine: {'line': b'   76 |     RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"publishtime: %lld"\x1b[m\x1b[K,\x1b[32m\x1b[Kcv_image.header.stamp.sec\x1b[m\x1b[K);\n'}
+[2.493066] (vision_detector) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493096] (vision_detector) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.493131] (vision_detector) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}\x1b[m\x1b[K\n'}
+[2.493194] (vision_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:76:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.493236] (vision_detector) StderrLine: {'line': b'   76 |     RCLCPP_INFO(this->get_logger(),"publishtime: \x1b[01;36m\x1b[K%lld\x1b[m\x1b[K",cv_image.header.stamp.sec);\n'}
+[2.493269] (vision_detector) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[2.493344] (vision_detector) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.493384] (vision_detector) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[2.493417] (vision_detector) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[2.516906] (-) TimerEvent: {}
+[2.617776] (-) TimerEvent: {}
+[2.718540] (-) TimerEvent: {}
+[2.819441] (-) TimerEvent: {}
+[2.920558] (-) TimerEvent: {}
+[3.021284] (-) TimerEvent: {}
+[3.121894] (-) TimerEvent: {}
+[3.222423] (-) TimerEvent: {}
+[3.323711] (-) TimerEvent: {}
+[3.424367] (-) TimerEvent: {}
+[3.524889] (-) TimerEvent: {}
+[3.625619] (-) TimerEvent: {}
+[3.726312] (-) TimerEvent: {}
+[3.827073] (-) TimerEvent: {}
+[3.928133] (-) TimerEvent: {}
+[4.029549] (-) TimerEvent: {}
+[4.130515] (-) TimerEvent: {}
+[4.231691] (-) TimerEvent: {}
+[4.332564] (-) TimerEvent: {}
+[4.433452] (-) TimerEvent: {}
+[4.534220] (-) TimerEvent: {}
+[4.634917] (-) TimerEvent: {}
+[4.735772] (-) TimerEvent: {}
+[4.836549] (-) TimerEvent: {}
+[4.937013] (-) TimerEvent: {}
+[5.037763] (-) TimerEvent: {}
+[5.138191] (-) TimerEvent: {}
+[5.239122] (-) TimerEvent: {}
+[5.339545] (-) TimerEvent: {}
+[5.440248] (-) TimerEvent: {}
+[5.541052] (-) TimerEvent: {}
+[5.641536] (-) TimerEvent: {}
+[5.741953] (-) TimerEvent: {}
+[5.842404] (-) TimerEvent: {}
+[5.943429] (-) TimerEvent: {}
+[6.044266] (-) TimerEvent: {}
+[6.144951] (-) TimerEvent: {}
+[6.245526] (-) TimerEvent: {}
+[6.345924] (-) TimerEvent: {}
+[6.446442] (-) TimerEvent: {}
+[6.546997] (-) TimerEvent: {}
+[6.647834] (-) TimerEvent: {}
+[6.748318] (-) TimerEvent: {}
+[6.848864] (-) TimerEvent: {}
+[6.949572] (-) TimerEvent: {}
+[7.050352] (-) TimerEvent: {}
+[7.150845] (-) TimerEvent: {}
+[7.251397] (-) TimerEvent: {}
+[7.261189] (vision_detector) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable vision_detector\x1b[0m\n'}
+[7.352033] (-) TimerEvent: {}
+[7.426817] (vision_detector) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.405\n'}
+[7.427186] (vision_detector) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405\n'}
+[7.452611] (-) TimerEvent: {}
+[7.553730] (-) TimerEvent: {}
+[7.654629] (-) TimerEvent: {}
+[7.755381] (-) TimerEvent: {}
+[7.840409] (vision_detector) StdoutLine: {'line': b'[100%] Built target vision_detector\n'}
+[7.848396] (vision_detector) CommandEnded: {'returncode': 0}
+[7.850768] (vision_detector) JobProgress: {'identifier': 'vision_detector', 'progress': 'install'}
+[7.854286] (vision_detector) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector'], 'cwd': '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liker'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/liker/Desktop/camera1'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1444'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1614'), ('BUNDLED_DEBUGPY_PATH', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3089'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liker'), ('JOURNAL_STREAM', '8:39101'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1578,unix/liker-virtual-machine:/tmp/.ICE-unix/1578'), ('INVOCATION_ID', '17da6b1f53d94052bfc930e7e3e95256'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fbebcc656407aa61.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liker/.config/Code/User/workspaceStorage/8df7d23c92a755972370ece27053b011/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OBL2J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e616db8e97.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.855640] (-) TimerEvent: {}
+[7.857347] (vision_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.857595] (vision_detector) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector\n'}
+[7.863917] (vision_detector) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector" to ""\n'}
+[7.864272] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/package_run_dependencies/vision_detector\n'}
+[7.864417] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/parent_prefix_path/vision_detector\n'}
+[7.864468] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.sh\n'}
+[7.864525] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.dsv\n'}
+[7.865205] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.sh\n'}
+[7.865283] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.dsv\n'}
+[7.865418] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.bash\n'}
+[7.865497] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.sh\n'}
+[7.865544] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.zsh\n'}
+[7.865658] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.dsv\n'}
+[7.865729] (vision_detector) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv\n'}
+[7.866522] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/packages/vision_detector\n'}
+[7.866674] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig.cmake\n'}
+[7.867469] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig-version.cmake\n'}
+[7.868680] (vision_detector) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.xml\n'}
+[7.869913] (vision_detector) CommandEnded: {'returncode': 0}
+[7.887967] (vision_detector) JobEnded: {'identifier': 'vision_detector', 'rc': 0}
+[7.889738] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/tf2_node_uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/static_tf_publish.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/TFListener.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/qtdispaly.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/test.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/edit_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/rebuild_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/list_install_components.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/install.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/install/local.dir
+/home/liker/Desktop/camera1/c_ws/src/build/tf2_node/CMakeFiles/install/strip.dir

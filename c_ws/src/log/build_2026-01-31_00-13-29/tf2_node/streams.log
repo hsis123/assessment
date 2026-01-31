@@ -1,0 +1,58 @@
+[0.095s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/tf2_node -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/tf2_node
+[0.104s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.104s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.104s]   CMake.
+[0.104s] 
+[0.105s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.105s]   to tell CMake that the project requires at least <min> but has been updated
+[0.105s]   to work with policies introduced by <max> or earlier.
+[0.105s] 
+[0.105s] [0m
+[0.394s] -- The C compiler identification is GNU 11.4.0
+[0.572s] -- The CXX compiler identification is GNU 11.4.0
+[0.588s] -- Detecting C compiler ABI info
+[0.701s] -- Detecting C compiler ABI info - done
+[0.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.721s] -- Detecting C compile features
+[0.722s] -- Detecting C compile features - done
+[0.740s] -- Detecting CXX compiler ABI info
+[0.841s] -- Detecting CXX compiler ABI info - done
+[0.859s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.860s] -- Detecting CXX compile features
+[0.860s] -- Detecting CXX compile features - done
+[0.871s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.990s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.071s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.107s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.113s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.122s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.190s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.191s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.333s] -- Found FastRTPS: /opt/ros/humble/include
+[1.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.490s] -- Found Threads: TRUE
+[1.552s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.788s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.788s]   By not providing "Findgeomtry_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.788s]   has asked CMake to find a package configuration file provided by
+[1.789s]   "geomtry_msgs", but CMake did not find one.
+[1.789s] 
+[1.789s]   Could not find a package configuration file provided by "geomtry_msgs" with
+[1.789s]   any of the following names:
+[1.789s] 
+[1.789s]     geomtry_msgsConfig.cmake
+[1.789s]     geomtry_msgs-config.cmake
+[1.789s] 
+[1.789s]   Add the installation prefix of "geomtry_msgs" to CMAKE_PREFIX_PATH or set
+[1.789s]   "geomtry_msgs_DIR" to a directory containing one of the above files.  If
+[1.789s]   "geomtry_msgs" provides a separate development package or SDK, be sure it
+[1.789s]   has been installed.
+[1.789s] 
+[1.789s] [0m
+[1.789s] -- Configuring incomplete, errors occurred!
+[1.802s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/tf2_node -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/tf2_node

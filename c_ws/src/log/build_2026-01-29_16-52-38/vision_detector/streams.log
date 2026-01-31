@@ -1,0 +1,28 @@
+[0.011s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[0.054s] [ 33%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/detector.cpp.o[0m
+[0.055s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_detector.dir/src/vision_detector.cpp.o[0m
+[6.830s] [100%] [32m[1mLinking CXX executable vision_detector[0m
+[6.984s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.405
+[6.984s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405
+[7.353s] [100%] Built target vision_detector
+[7.360s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/vision_detector -- -j32 -l32
+[7.363s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector
+[7.367s] -- Install configuration: ""
+[7.367s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector
+[7.373s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/vision_detector/lib/vision_detector/vision_detector" to ""
+[7.373s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/package_run_dependencies/vision_detector
+[7.373s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/parent_prefix_path/vision_detector
+[7.373s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.sh
+[7.373s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/ament_prefix_path.dsv
+[7.373s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.sh
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/environment/path.dsv
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.bash
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.sh
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.zsh
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/local_setup.dsv
+[7.374s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.dsv
+[7.374s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/ament_index/resource_index/packages/vision_detector
+[7.375s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig.cmake
+[7.376s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/cmake/vision_detectorConfig-version.cmake
+[7.377s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/vision_detector/share/vision_detector/package.xml
+[7.377s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/vision_detector

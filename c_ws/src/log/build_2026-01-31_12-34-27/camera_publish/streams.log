@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/camera_publish -- -j32 -l32
+[0.041s] [100%] Built target camera_publish
+[0.064s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/camera_publish -- -j32 -l32
+[0.064s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/camera_publish
+[0.067s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/package_run_dependencies/camera_publish
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/parent_prefix_path/camera_publish
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.sh
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.sh
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.dsv
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.bash
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.sh
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.zsh
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.dsv
+[0.068s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.dsv
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/packages/camera_publish
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig.cmake
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig-version.cmake
+[0.068s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.xml
+[0.072s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/camera_publish

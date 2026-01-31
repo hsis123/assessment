@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000534] (-) JobUnselected: {'identifier': 'camera_publish'}
+[0.000635] (-) JobUnselected: {'identifier': 'vision_detector'}
+[0.000720] (-) EventReactorShutdown: {}

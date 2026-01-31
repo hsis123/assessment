@@ -1,0 +1,18 @@
+[Unit]
+Description=ROS 2 Robot Auto Start Service
+After=network.target
+
+[Service]
+User=liker
+Environment="ROS_DISTRO=humble"
+Environment="PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages"
+Environment="LD_LIBRARY_PATH=/opt/ros/humble/lib"
+WorkingDirectory=/home/liker/Desktop/camera1/c_ws
+ExecStart=/home/liker/Desktop/camera1/c_ws/scripts/start_robot.sh
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/home/liker/Desktop/camera1/c_ws/log/systemd_service.log
+StandardError=append:/home/liker/Desktop/camera1/c_ws/log/systemd_service.log
+
+[Install]
+WantedBy=multi-user.target

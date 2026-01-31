@@ -1,0 +1,30 @@
+[0.011s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/vision_detector
+[0.015s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.015s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.015s]   CMake.
+[0.015s] 
+[0.015s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.015s]   to tell CMake that the project requires at least <min> but has been updated
+[0.015s]   to work with policies introduced by <max> or earlier.
+[0.015s] 
+[0.015s] [0m
+[0.020s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.181s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.182s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.186s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.227s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.305s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.352s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.381s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.426s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.426s]   ament_target_dependencies() the first argument must be a valid target name
+[0.426s] Call Stack (most recent call first):
+[0.426s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.426s] 
+[0.427s] [0m
+[0.427s] -- Configuring incomplete, errors occurred!
+[0.435s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/vision_detector

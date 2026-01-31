@@ -1,0 +1,259 @@
+[0.012s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces
+[0.015s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.015s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.015s]   CMake.
+[0.015s] 
+[0.015s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.015s]   to tell CMake that the project requires at least <min> but has been updated
+[0.015s]   to work with policies introduced by <max> or earlier.
+[0.015s] 
+[0.015s] [0m
+[0.019s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.173s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.176s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.214s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.223s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.544s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.240s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.240s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.240s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.240s]   the cmake_policy command to set the policy and suppress this warning.
+[1.240s] 
+[1.240s] Call Stack (most recent call first):
+[1.240s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.240s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.240s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[1.240s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.240s] [0m
+[1.257s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[1.260s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.261s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.261s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.261s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.261s]   the cmake_policy command to set the policy and suppress this warning.
+[1.261s] 
+[1.262s] Call Stack (most recent call first):
+[1.262s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.262s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.262s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.262s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[1.262s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.262s] [0m
+[1.276s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.276s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.276s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.276s]   the cmake_policy command to set the policy and suppress this warning.
+[1.276s] 
+[1.276s] Call Stack (most recent call first):
+[1.277s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.277s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.277s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.277s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[1.277s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.277s] [0m
+[1.285s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[1.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.285s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.285s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.301s] -- Found PythonExtra: .so
+[1.334s] -- Added test 'lint_cmake' to check CMake code style
+[1.335s] -- Added test 'xmllint' to check XML markup files
+[1.351s] -- Configuring done (1.3s)
+[1.411s] -- Generating done (0.1s)
+[1.421s] -- Build files have been written to: /home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces
+[1.430s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces
+[1.430s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces -- -j32 -l32
+[1.453s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.461s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.468s] [  6%] Built target ament_cmake_python_copy_rm_interfaces
+[1.648s] [  6%] Built target rm_interfaces__cpp
+[1.649s] running egg_info
+[1.650s] creating rm_interfaces.egg-info
+[1.650s] writing rm_interfaces.egg-info/PKG-INFO
+[1.650s] writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+[1.650s] writing top-level names to rm_interfaces.egg-info/top_level.txt
+[1.651s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[1.654s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.654s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.655s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.655s] reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[1.656s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[1.658s] [ 19%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/target_info__functions.c.o[0m
+[1.680s] [ 19%] Built target ament_cmake_python_build_rm_interfaces_egg
+[1.734s] [ 22%] [32m[1mLinking C shared library librm_interfaces__rosidl_generator_c.so[0m
+[1.761s] [ 22%] Built target rm_interfaces__rosidl_generator_c
+[1.768s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.769s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.769s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.839s] [ 35%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/target_info__type_support.cpp.o[0m
+[1.857s] [ 38%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/target_info__type_support.cpp.o[0m
+[1.858s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/target_info__type_support.cpp.o[0m
+[1.957s] [ 45%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/target_info__type_support.c.o[0m
+[1.992s] [ 48%] [32m[1mLinking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.996s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/target_info__type_support.cpp.o[0m
+[2.004s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/target_info__type_support_c.cpp.o[0m
+[2.018s] [ 54%] Built target rm_interfaces__rosidl_typesupport_introspection_c
+[2.026s] [ 58%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_c.so[0m
+[2.075s] [ 58%] Built target rm_interfaces__rosidl_typesupport_c
+[2.109s] [ 61%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so[0m
+[2.146s] [ 61%] Built target rm_interfaces__rosidl_typesupport_cpp
+[2.225s] [ 64%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.250s] [ 67%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.260s] [ 67%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp
+[2.263s] [ 70%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.307s] [ 70%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.318s] [ 70%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c
+[2.332s] [ 70%] Built target rm_interfaces
+[2.347s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.526s] [ 74%] Built target rm_interfaces__py
+[2.542s] [ 77%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_target_info_s.c.o[0m
+[2.691s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so[0m
+[2.718s] [ 80%] Built target rm_interfaces__rosidl_generator_py
+[2.731s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.731s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.732s] [ 90%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.800s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.800s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.802s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.823s] [100%] Built target rm_interfaces__rosidl_typesupport_c__pyext
+[2.824s] [100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.827s] [100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.838s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces -- -j32 -l32
+[2.844s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces
+[2.848s] -- Install configuration: ""
+[2.849s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__struct.h
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__type_support.h
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__functions.h
+[2.850s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__functions.c
+[2.851s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target_info.h
+[2.851s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.851s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh
+[2.851s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv
+[2.852s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so
+[2.852s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""
+[2.852s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.852s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.852s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.852s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__rosidl_typesupport_fastrtps_c.h
+[2.853s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.853s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.853s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.853s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.853s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.853s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.854s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__rosidl_typesupport_introspection_c.h
+[2.854s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__type_support.c
+[2.854s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.854s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so
+[2.855s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.855s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so
+[2.855s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""
+[2.856s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.856s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.856s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.856s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__struct.hpp
+[2.856s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__traits.hpp
+[2.856s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__builder.hpp
+[2.856s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__type_support.hpp
+[2.857s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target_info.hpp
+[2.857s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.857s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.857s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.857s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.857s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/dds_fastrtps
+[2.857s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.858s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.858s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.859s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.859s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces
+[2.859s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg
+[2.859s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail
+[2.859s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__type_support.cpp
+[2.859s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target_info__rosidl_typesupport_introspection_cpp.hpp
+[2.859s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.860s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.860s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so
+[2.860s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.860s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh
+[2.861s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv
+[2.862s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info
+[2.862s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.862s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.863s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.863s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.863s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces
+[2.864s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.864s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.864s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.865s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.865s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg
+[2.865s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_info.py
+[2.866s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_info_s.c
+[2.866s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py
+[2.866s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so
+[2.866s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py
+[2.867s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c
+[2.867s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.893s] Listing '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...
+[2.893s] Compiling '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...
+[2.893s] Listing '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...
+[2.893s] Compiling '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...
+[2.893s] Compiling '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_info.py'...
+[2.895s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.895s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.895s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.896s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.897s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so
+[2.897s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""
+[2.897s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/msg/TargetInfo.idl
+[2.897s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/msg/TargetInfo.msg
+[2.898s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces
+[2.898s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces
+[2.898s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh
+[2.899s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv
+[2.899s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/path.sh
+[2.899s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/environment/path.dsv
+[2.899s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.bash
+[2.900s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.sh
+[2.900s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.zsh
+[2.900s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/local_setup.dsv
+[2.901s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/package.dsv
+[2.901s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces
+[2.902s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake
+[2.902s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.902s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.903s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.903s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.903s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.904s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake
+[2.904s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.905s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake
+[2.906s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.907s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.907s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.909s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.909s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake
+[2.909s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.909s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake
+[2.909s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.910s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.911s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.911s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.911s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.911s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.911s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.912s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.912s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake
+[2.912s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake
+[2.912s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/package.xml
+[2.915s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/rm_interfaces

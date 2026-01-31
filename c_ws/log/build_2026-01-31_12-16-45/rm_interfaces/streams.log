@@ -1,0 +1,29 @@
+[0.011s] Invoking command in '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/rm_interfaces
+[0.016s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.016s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.017s]   CMake.
+[0.017s] 
+[0.017s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.017s]   to tell CMake that the project requires at least <min> but has been updated
+[0.017s]   to work with policies introduced by <max> or earlier.
+[0.020s] 
+[0.020s] [0m
+[0.026s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.026s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.026s]   has asked CMake to find a package configuration file provided by
+[0.026s]   "ament_cmake", but CMake did not find one.
+[0.027s] 
+[0.027s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.027s]   any of the following names:
+[0.028s] 
+[0.028s]     ament_cmakeConfig.cmake
+[0.030s]     ament_cmake-config.cmake
+[0.030s] 
+[0.030s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.030s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.033s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.033s]   has been installed.
+[0.033s] 
+[0.033s] [0m
+[0.033s] -- Configuring incomplete, errors occurred!
+[0.043s] Invoked command in '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces' returned '1': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/rm_interfaces

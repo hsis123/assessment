@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (-) JobUnselected: {'identifier': 'camera_publish'}
+[0.000203] (-) JobUnselected: {'identifier': 'my_launch'}
+[0.000471] (-) JobUnselected: {'identifier': 'rm_interfaces'}
+[0.000533] (-) JobUnselected: {'identifier': 'vision_detector'}
+[0.000573] (tf2_node) JobQueued: {'identifier': 'tf2_node', 'dependencies': OrderedDict([('rm_interfaces', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces')])}
+[0.000592] (tf2_node) JobStarted: {'identifier': 'tf2_node'}
+[0.024857] (tf2_node) JobProgress: {'identifier': 'tf2_node', 'progress': 'cmake'}
+[0.026523] (tf2_node) JobProgress: {'identifier': 'tf2_node', 'progress': 'build'}
+[0.027024] (tf2_node) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node', '--', '-j32', '-l32'], 'cwd': '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liker'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/liker/Desktop/camera1'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1413'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1732'), ('BUNDLED_DEBUGPY_PATH', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2567'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liker'), ('JOURNAL_STREAM', '8:7165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1691,unix/liker-virtual-machine:/tmp/.ICE-unix/1691'), ('INVOCATION_ID', '2ba43a0314b54af8935c6e4303565411'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fbebcc656407aa61.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liker/.config/Code/User/workspaceStorage/8df7d23c92a755972370ece27053b011/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OH8RJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e616db8e97.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099972] (-) TimerEvent: {}
+[0.122835] (tf2_node) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.123670] (tf2_node) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.123731] (tf2_node) StderrLine: {'line': b'  CMake.\n'}
+[0.123775] (tf2_node) StderrLine: {'line': b'\n'}
+[0.123816] (tf2_node) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.123851] (tf2_node) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.123884] (tf2_node) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.124054] (tf2_node) StderrLine: {'line': b'\n'}
+[0.124101] (tf2_node) StderrLine: {'line': b'\x1b[0m\n'}
+[0.145535] (tf2_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200511] (-) TimerEvent: {}
+[0.301279] (-) TimerEvent: {}
+[0.344417] (tf2_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.401536] (-) TimerEvent: {}
+[0.405967] (tf2_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.411494] (tf2_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.426181] (tf2_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.444285] (tf2_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464010] (tf2_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501901] (-) TimerEvent: {}
+[0.523390] (tf2_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.527526] (tf2_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.602257] (-) TimerEvent: {}
+[0.642313] (tf2_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702451] (-) TimerEvent: {}
+[0.738263] (tf2_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.802903] (-) TimerEvent: {}
+[0.895588] (tf2_node) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.902785] (tf2_node) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.903249] (-) TimerEvent: {}
+[0.904486] (tf2_node) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.906300] (tf2_node) StdoutLine: {'line': b'-- Found rm_interfaces: 0.0.0 (/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake)\n'}
+[0.964416] (tf2_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.003529] (-) TimerEvent: {}
+[1.040530] (tf2_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.041140] (tf2_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.041429] (tf2_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.041762] (tf2_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.042992] (tf2_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.043107] (tf2_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.043634] (tf2_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.047128] (tf2_node) StdoutLine: {'line': b'-- Configuring done (0.9s)\n'}
+[1.091528] (tf2_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.096648] (tf2_node) StdoutLine: {'line': b'-- Build files have been written to: /home/liker/Desktop/camera1/c_ws/src/build/tf2_node\n'}
+[1.103802] (-) TimerEvent: {}
+[1.125913] (tf2_node) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/qtdispaly.dir/src/qtdispaly.cpp.o\x1b[0m\n'}
+[1.143571] (tf2_node) StdoutLine: {'line': b'[ 50%] Built target static_tf_publish\n'}
+[1.144568] (tf2_node) StdoutLine: {'line': b'[ 83%] Built target TFListener\n'}
+[1.204369] (-) TimerEvent: {}
+[1.304769] (-) TimerEvent: {}
+[1.405535] (-) TimerEvent: {}
+[1.506005] (-) TimerEvent: {}
+[1.606425] (-) TimerEvent: {}
+[1.707033] (-) TimerEvent: {}
+[1.807686] (-) TimerEvent: {}
+[1.908299] (-) TimerEvent: {}
+[2.008999] (-) TimerEvent: {}
+[2.109646] (-) TimerEvent: {}
+[2.210585] (-) TimerEvent: {}
+[2.311283] (-) TimerEvent: {}
+[2.411687] (-) TimerEvent: {}
+[2.512270] (-) TimerEvent: {}
+[2.613171] (-) TimerEvent: {}
+[2.713876] (-) TimerEvent: {}
+[2.814827] (-) TimerEvent: {}
+[2.915743] (-) TimerEvent: {}
+[3.016785] (-) TimerEvent: {}
+[3.117516] (-) TimerEvent: {}
+[3.218094] (-) TimerEvent: {}
+[3.319068] (-) TimerEvent: {}
+[3.385419] (tf2_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/tf2_node/src/qtdispaly.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KQString dispaly::get_qstr_from_msg(std::shared_ptr<const rm_interfaces::msg::TargetInfo_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.385667] (tf2_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liker/Desktop/camera1/c_ws/src/tf2_node/src/qtdispaly.cpp:31:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.385775] (tf2_node) StderrLine: {'line': b'   31 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.385818] (tf2_node) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.419373] (-) TimerEvent: {}
+[3.519994] (-) TimerEvent: {}
+[3.621073] (-) TimerEvent: {}
+[3.721915] (-) TimerEvent: {}
+[3.822980] (-) TimerEvent: {}
+[3.923489] (-) TimerEvent: {}
+[4.024536] (-) TimerEvent: {}
+[4.125741] (-) TimerEvent: {}
+[4.226845] (-) TimerEvent: {}
+[4.328022] (-) TimerEvent: {}
+[4.429181] (-) TimerEvent: {}
+[4.529960] (-) TimerEvent: {}
+[4.630471] (-) TimerEvent: {}
+[4.731320] (-) TimerEvent: {}
+[4.832029] (-) TimerEvent: {}
+[4.932534] (-) TimerEvent: {}
+[5.033003] (-) TimerEvent: {}
+[5.133996] (-) TimerEvent: {}
+[5.235156] (-) TimerEvent: {}
+[5.336036] (-) TimerEvent: {}
+[5.437772] (-) TimerEvent: {}
+[5.538978] (-) TimerEvent: {}
+[5.640109] (-) TimerEvent: {}
+[5.741134] (-) TimerEvent: {}
+[5.842121] (-) TimerEvent: {}
+[5.942958] (-) TimerEvent: {}
+[6.043758] (-) TimerEvent: {}
+[6.144791] (-) TimerEvent: {}
+[6.245874] (-) TimerEvent: {}
+[6.346657] (-) TimerEvent: {}
+[6.447155] (-) TimerEvent: {}
+[6.547729] (-) TimerEvent: {}
+[6.648624] (-) TimerEvent: {}
+[6.749368] (-) TimerEvent: {}
+[6.850130] (-) TimerEvent: {}
+[6.950684] (-) TimerEvent: {}
+[7.051597] (-) TimerEvent: {}
+[7.152391] (-) TimerEvent: {}
+[7.253269] (-) TimerEvent: {}
+[7.354353] (-) TimerEvent: {}
+[7.455155] (-) TimerEvent: {}
+[7.550800] (tf2_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable qtdispaly\x1b[0m\n'}
+[7.555697] (-) TimerEvent: {}
+[7.656537] (-) TimerEvent: {}
+[7.757142] (-) TimerEvent: {}
+[7.857953] (-) TimerEvent: {}
+[7.958379] (-) TimerEvent: {}
+[8.059289] (-) TimerEvent: {}
+[8.160036] (-) TimerEvent: {}
+[8.188742] (tf2_node) StdoutLine: {'line': b'[100%] Built target qtdispaly\n'}
+[8.195273] (tf2_node) CommandEnded: {'returncode': 0}
+[8.196472] (tf2_node) JobProgress: {'identifier': 'tf2_node', 'progress': 'install'}
+[8.201312] (tf2_node) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node'], 'cwd': '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/liker'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/liker/Desktop/camera1'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1413'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1732'), ('BUNDLED_DEBUGPY_PATH', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2567'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'liker'), ('JOURNAL_STREAM', '8:7165'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1691,unix/liker-virtual-machine:/tmp/.ICE-unix/1691'), ('INVOCATION_ID', '2ba43a0314b54af8935c6e4303565411'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/liker/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fbebcc656407aa61.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/liker/.config/Code/User/workspaceStorage/8df7d23c92a755972370ece27053b011/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OH8RJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e616db8e97.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble')]), 'shell': False}
+[8.204254] (tf2_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.207393] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/static_tf_publish\n'}
+[8.208916] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/TFListener\n'}
+[8.209583] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/qtdispaly\n'}
+[8.214606] (tf2_node) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/qtdispaly" to ""\n'}
+[8.214725] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/package_run_dependencies/tf2_node\n'}
+[8.216623] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/parent_prefix_path/tf2_node\n'}
+[8.216751] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/ament_prefix_path.sh\n'}
+[8.216817] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/ament_prefix_path.dsv\n'}
+[8.217327] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/path.sh\n'}
+[8.217397] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/path.dsv\n'}
+[8.217815] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.bash\n'}
+[8.217961] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.sh\n'}
+[8.218009] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.zsh\n'}
+[8.218048] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.dsv\n'}
+[8.218737] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/package.dsv\n'}
+[8.219115] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/packages/tf2_node\n'}
+[8.219202] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/cmake/tf2_nodeConfig.cmake\n'}
+[8.219244] (tf2_node) StdoutLine: {'line': b'-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/cmake/tf2_nodeConfig-version.cmake\n'}
+[8.219279] (tf2_node) StdoutLine: {'line': b'-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/package.xml\n'}
+[8.221005] (tf2_node) CommandEnded: {'returncode': 0}
+[8.250294] (tf2_node) JobEnded: {'identifier': 'tf2_node', 'rc': 0}
+[8.250999] (-) EventReactorShutdown: {}

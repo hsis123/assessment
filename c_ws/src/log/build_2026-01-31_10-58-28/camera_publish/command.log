@@ -1,0 +1,4 @@
+Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/camera_publish -- -j32 -l32
+Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/camera_publish -- -j32 -l32
+Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/camera_publish
+Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/camera_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/camera_publish

@@ -1,0 +1,16 @@
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/package_run_dependencies/camera_publish
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/parent_prefix_path/camera_publish
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.sh
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.dsv
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.sh
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.dsv
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.bash
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.sh
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.zsh
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.dsv
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.dsv
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/packages/camera_publish
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig.cmake
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig-version.cmake
+/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.xml

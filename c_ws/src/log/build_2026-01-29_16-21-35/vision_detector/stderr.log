@@ -1,0 +1,28 @@
+In file included from [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/detector.cpp:1[m[K:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:[m[K In member function ‘[01m[Kcv::Mat Detector::color_detector(const cv::Mat&)[m[K’:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:15:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   15 |  cv::Mat color_detector(const cv::Mat &image){[01;35m[K}[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:15:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |  cv::Mat color_detector([01;35m[Kconst cv::Mat &image[m[K){}
+      |                         [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/detector.cpp:[m[K At global scope:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/detector.cpp:3:9:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kcv::Mat Detector::color_detector(const cv::Mat&)[m[K’
+    3 | cv::Mat [01;31m[KDetector[m[K::color_detector(const cv::Mat &image){
+      |         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/detector.cpp:1[m[K:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:15:10:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat Detector::color_detector(const cv::Mat&)[m[K’ previously defined here
+   15 |  cv::Mat [01;36m[Kcolor_detector[m[K(const cv::Mat &image){}
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_detector.dir/build.make:79: CMakeFiles/vision_detector.dir/src/detector.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/src/vision_detector.cpp:6[m[K:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:[m[K In member function ‘[01m[Kcv::Mat Detector::color_detector(const cv::Mat&)[m[K’:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:15:47:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   15 |  cv::Mat color_detector(const cv::Mat &image){[01;35m[K}[m[K
+      |                                               [01;35m[K^[m[K
+[01m[K/home/liker/Desktop/camera1/c_ws/src/vision_detector/include/vision_detector/detector.hpp:15:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |  cv::Mat color_detector([01;35m[Kconst cv::Mat &image[m[K){}
+      |                         [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/vision_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

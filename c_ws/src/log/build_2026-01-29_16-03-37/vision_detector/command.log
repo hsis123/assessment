@@ -1,0 +1,2 @@
+Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/vision_detector
+Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/vision_detector' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/src/install/vision_detector

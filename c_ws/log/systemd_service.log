@@ -1,0 +1,56 @@
+开始编译...
+Starting >>> rm_interfaces
+Starting >>> camera_publish
+Starting >>> my_launch
+Finished <<< my_launch [0.07s]
+Finished <<< camera_publish [0.10s]
+Finished <<< rm_interfaces [0.31s]
+Starting >>> tf2_node
+Starting >>> vision_detector
+Finished <<< tf2_node [0.08s]
+Finished <<< vision_detector [0.09s]
+
+Summary: 5 packages finished [0.59s]
+启动机器人项目...
+开始编译...
+Starting >>> rm_interfaces
+Starting >>> camera_publish
+Starting >>> my_launch
+Finished <<< my_launch [0.06s]
+Finished <<< camera_publish [0.08s]
+Finished <<< rm_interfaces [0.28s]
+Starting >>> tf2_node
+Starting >>> vision_detector
+Finished <<< tf2_node [0.07s]
+Finished <<< vision_detector [0.08s]
+
+Summary: 5 packages finished [0.52s]
+启动机器人项目...
+开始编译...
+Starting >>> rm_interfaces
+Starting >>> camera_publish
+Starting >>> my_launch
+Finished <<< my_launch [0.06s]
+Finished <<< camera_publish [0.08s]
+Finished <<< rm_interfaces [0.28s]
+Starting >>> tf2_node
+Starting >>> vision_detector
+Finished <<< vision_detector [0.07s]
+Finished <<< tf2_node [0.09s]
+
+Summary: 5 packages finished [0.52s]
+启动机器人项目...
+开始编译...
+Starting >>> rm_interfaces
+Starting >>> camera_publish
+Starting >>> my_launch
+Finished <<< my_launch [0.06s]
+Finished <<< camera_publish [0.08s]
+Finished <<< rm_interfaces [0.28s]
+Starting >>> tf2_node
+Starting >>> vision_detector
+Finished <<< tf2_node [0.08s]
+Finished <<< vision_detector [0.09s]
+
+Summary: 5 packages finished [0.53s]
+启动机器人项目...

@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/liker/Desktop/camera1/c_ws/src/build/camera_publish
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publish.dir/src/camera_publish.cpp.o[0m
+[100%] [32m[1mLinking CXX executable camera_publish[0m
+[100%] Built target camera_publish
+-- Install configuration: ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish
+-- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish" to ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/package_run_dependencies/camera_publish
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/parent_prefix_path/camera_publish
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.bash
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.sh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.zsh
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/packages/camera_publish
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig-version.cmake
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.xml

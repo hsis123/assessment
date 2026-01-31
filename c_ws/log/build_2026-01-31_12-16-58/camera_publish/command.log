@@ -1,0 +1,2 @@
+Invoking command in '/home/liker/Desktop/camera1/c_ws/build/camera_publish': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/camera_publish -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/camera_publish
+Invoked command in '/home/liker/Desktop/camera1/c_ws/build/camera_publish' returned '1': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/camera_publish -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/camera_publish

@@ -1,0 +1,1 @@
+Invoking command in '/home/liker/Desktop/camera1/c_ws/build/my_launch': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/my_launch -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/my_launch

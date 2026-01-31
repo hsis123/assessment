@@ -1,0 +1,9 @@
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/my_launch_uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/test.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/edit_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/rebuild_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/list_install_components.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/install.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/install/local.dir
+/home/liker/Desktop/camera1/c_ws/src/build/my_launch/CMakeFiles/install/strip.dir

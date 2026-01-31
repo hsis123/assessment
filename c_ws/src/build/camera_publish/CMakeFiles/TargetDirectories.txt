@@ -1,0 +1,10 @@
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/camera_publish_uninstall.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/camera_publish.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/test.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/edit_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/rebuild_cache.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/list_install_components.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/install.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/install/local.dir
+/home/liker/Desktop/camera1/c_ws/src/build/camera_publish/CMakeFiles/install/strip.dir

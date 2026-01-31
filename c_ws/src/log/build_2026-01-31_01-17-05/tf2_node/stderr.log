@@ -1,0 +1,41 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "FindQt5::Widgets.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "Qt5::Widgets", but CMake did not find one.
+
+  Could not find a package configuration file provided by "Qt5::Widgets" with
+  any of the following names:
+
+    Qt5::WidgetsConfig.cmake
+    qt5::widgets-config.cmake
+
+  Add the installation prefix of "Qt5::Widgets" to CMAKE_PREFIX_PATH or set
+  "Qt5::Widgets_DIR" to a directory containing one of the above files.  If
+  "Qt5::Widgets" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+[31mCMake Error at CMakeLists.txt:43 (target_link_libraries):
+  Target "qtdispaly" links to:
+
+    Qt5::Widgets
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

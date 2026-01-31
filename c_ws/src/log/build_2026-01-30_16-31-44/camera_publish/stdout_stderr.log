@@ -1,0 +1,46 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publish.dir/src/camera_publish.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/liker/Desktop/camera1/c_ws/src/camera_publish/src/camera_publish.cpp:1[m[K:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/camera_publish/src/camera_publish.cpp:[m[K In member function ‘[01m[Kvoid CameraPublishNode::cpublish()[m[K’:
+[01m[K/home/liker/Desktop/camera1/c_ws/src/camera_publish/src/camera_publish.cpp:43:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 5 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   43 |     RCLCPP_INFO(this->get_logger(),[01;35m[K"publishtime: %lld"[m[K,[32m[Kcv_image.header.stamp.sec[m[K);
+      |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                              [32m[K|[m[K
+      |                                                                              [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[01m[K/home/liker/Desktop/camera1/c_ws/src/camera_publish/src/camera_publish.cpp:43:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   43 |     RCLCPP_INFO(this->get_logger(),"publishtime: [01;36m[K%lld[m[K",cv_image.header.stamp.sec);
+      |                                                  [01;36m[K~~~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Klong long int[m[K
+      |                                                  [32m[K%d[m[K
+[100%] [32m[1mLinking CXX executable camera_publish[0m
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.405
+[100%] Built target camera_publish
+-- Install configuration: ""
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish
+-- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/camera_publish/lib/camera_publish/camera_publish" to ""
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/package_run_dependencies/camera_publish
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/parent_prefix_path/camera_publish
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.sh
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.sh
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/environment/path.dsv
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.bash
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.sh
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.zsh
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/local_setup.dsv
+-- Installing: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.dsv
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/ament_index/resource_index/packages/camera_publish
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig.cmake
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/cmake/camera_publishConfig-version.cmake
+-- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/camera_publish/share/camera_publish/package.xml

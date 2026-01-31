@@ -1,0 +1,2 @@
+Invoking command in '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/rm_interfaces
+Invoked command in '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces' returned '1': /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/rm_interfaces -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/rm_interfaces

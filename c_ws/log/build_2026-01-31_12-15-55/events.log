@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000667] (camera_publish) JobQueued: {'identifier': 'camera_publish', 'dependencies': OrderedDict()}
+[0.000949] (my_launch) JobQueued: {'identifier': 'my_launch', 'dependencies': OrderedDict()}
+[0.001013] (rm_interfaces) JobQueued: {'identifier': 'rm_interfaces', 'dependencies': OrderedDict()}
+[0.001066] (tf2_node) JobQueued: {'identifier': 'tf2_node', 'dependencies': OrderedDict([('rm_interfaces', '/home/liker/Desktop/camera1/c_ws/install/rm_interfaces')])}
+[0.001084] (vision_detector) JobQueued: {'identifier': 'vision_detector', 'dependencies': OrderedDict([('rm_interfaces', '/home/liker/Desktop/camera1/c_ws/install/rm_interfaces')])}
+[0.001125] (rm_interfaces) JobStarted: {'identifier': 'rm_interfaces'}
+[0.004217] (camera_publish) JobStarted: {'identifier': 'camera_publish'}
+[0.005821] (my_launch) JobStarted: {'identifier': 'my_launch'}
+[0.009165] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'cmake'}
+[0.010506] (rm_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/home/liker/Desktop/camera1/c_ws/src/rm_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/rm_interfaces'], 'cwd': '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('HOME', '/home/liker'), ('OLDPWD', '/home/liker/Desktop/camera1/c_ws/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1691'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'liker'), ('_', '/usr/bin/gnome-session'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1691,unix/liker-virtual-machine:/tmp/.ICE-unix/1691'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c2b521_97d6_4286_8d61_412a53e74059'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OH8RJ3'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/build/rm_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.013824] (camera_publish) JobProgress: {'identifier': 'camera_publish', 'progress': 'cmake'}
+[0.015125] (camera_publish) Command: {'cmd': ['/usr/local/bin/cmake', '/home/liker/Desktop/camera1/c_ws/src/camera_publish', '-DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/camera_publish'], 'cwd': '/home/liker/Desktop/camera1/c_ws/build/camera_publish', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('HOME', '/home/liker'), ('OLDPWD', '/home/liker/Desktop/camera1/c_ws/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1691'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'liker'), ('_', '/usr/bin/gnome-session'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1691,unix/liker-virtual-machine:/tmp/.ICE-unix/1691'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c2b521_97d6_4286_8d61_412a53e74059'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OH8RJ3'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/build/camera_publish'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.018700] (rm_interfaces) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.018891] (rm_interfaces) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.019220] (rm_interfaces) StderrLine: {'line': b'  CMake.\n'}
+[0.019406] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.019678] (rm_interfaces) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.019729] (rm_interfaces) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.019765] (rm_interfaces) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.019839] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.019876] (rm_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.019909] (my_launch) JobProgress: {'identifier': 'my_launch', 'progress': 'cmake'}
+[0.019921] (camera_publish) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.020010] (camera_publish) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.020163] (camera_publish) StderrLine: {'line': b'  CMake.\n'}
+[0.020205] (camera_publish) StderrLine: {'line': b'\n'}
+[0.020238] (camera_publish) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.020306] (camera_publish) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.020588] (camera_publish) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.020676] (camera_publish) StderrLine: {'line': b'\n'}
+[0.022168] (camera_publish) StderrLine: {'line': b'\x1b[0m\n'}
+[0.022889] (my_launch) Command: {'cmd': ['/usr/local/bin/cmake', '/home/liker/Desktop/camera1/c_ws/src/my_launch', '-DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/c_ws/install/my_launch'], 'cwd': '/home/liker/Desktop/camera1/c_ws/build/my_launch', 'env': OrderedDict([('LANGUAGE', 'en_US:'), ('USER', 'liker'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('HOME', '/home/liker'), ('OLDPWD', '/home/liker/Desktop/camera1/c_ws/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1691'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'liker'), ('_', '/usr/bin/gnome-session'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'liker'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/liker-virtual-machine:@/tmp/.ICE-unix/1691,unix/liker-virtual-machine:/tmp/.ICE-unix/1691'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2c2b521_97d6_4286_8d61_412a53e74059'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OH8RJ3'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/liker/Desktop/camera1/c_ws/build/my_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=98f95ca7946eb74339853bd7697d67ec'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.026408] (my_launch) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.026539] (my_launch) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.026579] (my_launch) StderrLine: {'line': b'  CMake.\n'}
+[0.026612] (my_launch) StderrLine: {'line': b'\n'}
+[0.026642] (my_launch) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.026670] (my_launch) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.026698] (my_launch) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.026725] (my_launch) StderrLine: {'line': b'\n'}
+[0.026751] (my_launch) StderrLine: {'line': b'\x1b[0m\n'}
+[0.027930] (rm_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.028162] (rm_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.028421] (rm_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.028503] (rm_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.028538] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.028568] (rm_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.028599] (rm_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.028646] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.028697] (rm_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.028732] (rm_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.028846] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.028894] (rm_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.028927] (rm_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.028956] (rm_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.028985] (rm_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.029012] (rm_interfaces) StderrLine: {'line': b'\n'}
+[0.029039] (rm_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.029067] (rm_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.030254] (rm_interfaces) CommandEnded: {'returncode': 1}
+[0.031949] (camera_publish) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.032027] (camera_publish) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.032067] (camera_publish) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.032100] (camera_publish) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.032129] (camera_publish) StderrLine: {'line': b'\n'}
+[0.032157] (camera_publish) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.032185] (camera_publish) StderrLine: {'line': b'  any of the following names:\n'}
+[0.033193] (camera_publish) StderrLine: {'line': b'\n'}
+[0.033500] (camera_publish) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.033591] (camera_publish) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.033629] (camera_publish) StderrLine: {'line': b'\n'}
+[0.033670] (camera_publish) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.034152] (camera_publish) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.034770] (camera_publish) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.036713] (camera_publish) StderrLine: {'line': b'  has been installed.\n'}
+[0.036788] (camera_publish) StderrLine: {'line': b'\n'}
+[0.036860] (camera_publish) StderrLine: {'line': b'\x1b[0m\n'}
+[0.036927] (camera_publish) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.036991] (camera_publish) CommandEnded: {'returncode': 1}
+[0.038086] (my_launch) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.038192] (my_launch) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.038331] (my_launch) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.038449] (my_launch) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.039112] (my_launch) StderrLine: {'line': b'\n'}
+[0.039158] (my_launch) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.039492] (my_launch) StderrLine: {'line': b'  any of the following names:\n'}
+[0.040574] (my_launch) StderrLine: {'line': b'\n'}
+[0.042167] (my_launch) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.042756] (my_launch) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.042871] (my_launch) StderrLine: {'line': b'\n'}
+[0.042928] (my_launch) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.042964] (my_launch) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.042998] (my_launch) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.043677] (my_launch) StderrLine: {'line': b'  has been installed.\n'}
+[0.043858] (my_launch) StderrLine: {'line': b'\n'}
+[0.043954] (my_launch) StderrLine: {'line': b'\x1b[0m\n'}
+[0.044007] (my_launch) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.050715] (rm_interfaces) JobEnded: {'identifier': 'rm_interfaces', 'rc': 1}
+[0.051966] (my_launch) JobEnded: {'identifier': 'my_launch', 'rc': 'SIGINT'}
+[0.052855] (camera_publish) JobEnded: {'identifier': 'camera_publish', 'rc': 'SIGINT'}
+[0.062619] (tf2_node) JobSkipped: {'identifier': 'tf2_node'}
+[0.063176] (vision_detector) JobSkipped: {'identifier': 'vision_detector'}
+[0.063221] (-) EventReactorShutdown: {}

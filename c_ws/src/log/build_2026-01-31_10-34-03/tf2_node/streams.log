@@ -1,0 +1,68 @@
+[0.027s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/tf2_node -- -j32 -l32
+[0.123s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.123s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.123s]   CMake.
+[0.123s] 
+[0.123s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.123s]   to tell CMake that the project requires at least <min> but has been updated
+[0.123s]   to work with policies introduced by <max> or earlier.
+[0.123s] 
+[0.123s] [0m
+[0.145s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.411s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.527s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.738s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.895s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.902s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.904s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.906s] -- Found rm_interfaces: 0.0.0 (/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/share/rm_interfaces/cmake)
+[0.964s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.041s] -- Configured cppcheck include dirs: 
+[1.041s] -- Configured cppcheck exclude dirs and/or files: 
+[1.041s] -- Added test 'lint_cmake' to check CMake code style
+[1.042s] -- Added test 'uncrustify' to check C / C++ code style
+[1.042s] -- Configured uncrustify additional arguments: 
+[1.043s] -- Added test 'xmllint' to check XML markup files
+[1.047s] -- Configuring done (0.9s)
+[1.091s] -- Generating done (0.0s)
+[1.096s] -- Build files have been written to: /home/liker/Desktop/camera1/c_ws/src/build/tf2_node
+[1.125s] [ 16%] [32mBuilding CXX object CMakeFiles/qtdispaly.dir/src/qtdispaly.cpp.o[0m
+[1.143s] [ 50%] Built target static_tf_publish
+[1.144s] [ 83%] Built target TFListener
+[3.385s] [01m[K/home/liker/Desktop/camera1/c_ws/src/tf2_node/src/qtdispaly.cpp:[m[K In member function ‘[01m[KQString dispaly::get_qstr_from_msg(std::shared_ptr<const rm_interfaces::msg::TargetInfo_<std::allocator<void> > >)[m[K’:
+[3.385s] [01m[K/home/liker/Desktop/camera1/c_ws/src/tf2_node/src/qtdispaly.cpp:31:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.385s]    31 | [01;35m[K}[m[K
+[3.385s]       | [01;35m[K^[m[K
+[7.550s] [100%] [32m[1mLinking CXX executable qtdispaly[0m
+[8.188s] [100%] Built target qtdispaly
+[8.195s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node' returned '0': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/liker/Desktop/camera1/c_ws/src/build/tf2_node -- -j32 -l32
+[8.201s] Invoking command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/tf2_node
+[8.204s] -- Install configuration: ""
+[8.207s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/static_tf_publish
+[8.208s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/TFListener
+[8.209s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/qtdispaly
+[8.214s] -- Set non-toolchain portion of runtime path of "/home/liker/Desktop/camera1/c_ws/src/install/tf2_node/lib/tf2_node/qtdispaly" to ""
+[8.214s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/package_run_dependencies/tf2_node
+[8.216s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/parent_prefix_path/tf2_node
+[8.216s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/ament_prefix_path.sh
+[8.216s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/ament_prefix_path.dsv
+[8.217s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/path.sh
+[8.217s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/environment/path.dsv
+[8.217s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.bash
+[8.217s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.sh
+[8.217s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.zsh
+[8.217s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/local_setup.dsv
+[8.218s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/package.dsv
+[8.218s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/ament_index/resource_index/packages/tf2_node
+[8.218s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/cmake/tf2_nodeConfig.cmake
+[8.218s] -- Up-to-date: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/cmake/tf2_nodeConfig-version.cmake
+[8.218s] -- Installing: /home/liker/Desktop/camera1/c_ws/src/install/tf2_node/share/tf2_node/package.xml
+[8.220s] Invoked command in '/home/liker/Desktop/camera1/c_ws/src/build/tf2_node' returned '0': AMENT_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/liker/Desktop/camera1/c_ws/src/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/liker/Desktop/camera1/c_ws/src/build/tf2_node
