@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/liker/Desktop/camera1/build/vision_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/install/vision_detector
+[0.024s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.024s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.024s]   CMake.
+[0.024s] 
+[0.024s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.024s]   to tell CMake that the project requires at least <min> but has been updated
+[0.024s]   to work with policies introduced by <max> or earlier.
+[0.024s] 
+[0.024s] [0m
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.410s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.629s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.747s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.818s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.826s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.843s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.974s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.978s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.092s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.120s] -- Found FastRTPS: /opt/ros/humble/include
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.242s] -- Found Threads: TRUE
+[1.335s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.406s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.406s]   By not providing "Findopencv_vendor.cmake" in CMAKE_MODULE_PATH this
+[1.406s]   project has asked CMake to find a package configuration file provided by
+[1.406s]   "opencv_vendor", but CMake did not find one.
+[1.406s] 
+[1.406s]   Could not find a package configuration file provided by "opencv_vendor"
+[1.406s]   with any of the following names:
+[1.406s] 
+[1.406s]     opencv_vendorConfig.cmake
+[1.406s]     opencv_vendor-config.cmake
+[1.406s] 
+[1.406s]   Add the installation prefix of "opencv_vendor" to CMAKE_PREFIX_PATH or set
+[1.406s]   "opencv_vendor_DIR" to a directory containing one of the above files.  If
+[1.406s]   "opencv_vendor" provides a separate development package or SDK, be sure it
+[1.406s]   has been installed.
+[1.407s] 
+[1.407s] [0m
+[1.407s] -- Configuring incomplete, errors occurred!
+[1.416s] Invoked command in '/home/liker/Desktop/camera1/build/vision_detector' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/liker/Desktop/camera1/c_ws/src/vision_detector -DCMAKE_INSTALL_PREFIX=/home/liker/Desktop/camera1/install/vision_detector
